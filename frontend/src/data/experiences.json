@@ -1,0 +1,58 @@
+[
+  {
+    "id": "petik-jombang",
+    "role": "Software Development Student",
+    "company": "PeTIK Jombang · Jurusan Pengembangan Perangkat Lunak",
+    "type": "Education",
+    "period": "2024 — Present",
+    "duration": "Ongoing",
+    "summary": "Menempuh pendidikan di jurusan Pengembangan Perangkat Lunak (PPL), membangun fondasi full-stack web development dari perancangan antarmuka hingga sistem backend production-ready.",
+    "highlights": [
+      "Full-stack curriculum: PHP, Laravel, MySQL",
+      "Final Project Web Design — Certificate of Appreciation (PeTIK x YBM PLN)",
+      "Membangun Aplikasi SPPD untuk Puskesmas Pulolor",
+      "Deployment ke VPS dengan Nginx & systemd"
+    ],
+    "image": null,
+    "imageAlt": "Abrar Ghifari during his studies at PeTIK Jombang",
+    "monogram": "PJ"
+  },
+
+  {
+    "id": "google-student-ambassador",
+    "role": "Active Participant",
+    "company": "Google Student Ambassador 2026",
+    "type": "Program",
+    "period": "2026",
+    "duration": "Ongoing",
+    "summary": "Terpilih sebagai peserta aktif program Google Student Ambassador, memperluas wawasan teknologi AI dan cloud serta membangun jaringan profesional di tingkat nasional.",
+    "highlights": [
+      "Certificate of Attendance — Workshop \"Work Smarter, Not Harder\"",
+      "Siswa Tersertifikasi Gemini (Tingkat Universitas)",
+      "Akselerasi Karier dan Produktivitas dengan Gemini",
+      "Belajar Dasar Cloud dan Gen AI di AWS"
+    ],
+    "image": null,
+    "imageAlt": "Abrar Ghifari as a Google Student Ambassador",
+    "monogram": "GSA"
+  },
+
+  {
+    "id": "telkom-university",
+    "role": "Incoming Informatics Engineering Student",
+    "company": "Telkom University, Bandung",
+    "type": "Target",
+    "period": "2026 — Onward",
+    "duration": "Planned",
+    "summary": "Berencana melanjutkan studi ke jurusan Teknik Informatika di Telkom University untuk memperdalam fondasi keilmuan di bidang teknologi informasi.",
+    "highlights": [
+      "Memperdalam fondasi computer science",
+      "Riset dan pengembangan software berskala besar",
+      "Memperluas jaringan profesional di Bandung",
+      "Melanjutkan proyek open-source & AI-assisted development"
+    ],
+    "image": null,
+    "imageAlt": "Telkom University Bandung, Abrar Ghifari's planned university",
+    "monogram": "TU"
+  }
+]

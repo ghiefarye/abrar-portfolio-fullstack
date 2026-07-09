@@ -1,0 +1,67 @@
+[
+  {
+    "id": "sppd-puskesmas-pulolor",
+    "number": "01",
+    "name": "Aplikasi SPPD Puskesmas Pulolor",
+    "role": "Fullstack Developer",
+    "category": "fullstack",
+    "featured": true,
+    "experienceId": "petik-jombang",
+    "experienceLabel": "PeTIK Jombang · Final Project",
+    "summary": "Sistem digital untuk menyederhanakan proses administrasi Surat Perintah Perjalanan Dinas (SPPD) di Puskesmas Pulolor, Jombang — menggantikan alur manual berbasis kertas dengan pengajuan, approval, dan pelacakan status secara digital.",
+    "contributions": [
+      "Merancang alur kerja digital menggantikan proses SPPD manual berbasis kertas",
+      "Mengembangkan sistem end-to-end mulai dari database, backend, hingga antarmuka pengguna",
+      "Mendesain dashboard admin dan pegawai dengan tampilan bersih dan mudah dipahami",
+      "Melakukan deployment ke VPS dengan Nginx sebagai reverse proxy dan konfigurasi systemd service",
+      "Mengintegrasikan AI (Google Gemini, Trae AI) dalam proses optimasi kode dan UI/UX"
+    ],
+    "impactSummary": "Mendigitalkan proses administrasi perjalanan dinas yang sebelumnya manual, mempercepat approval dan mengurangi risiko dokumen hilang.",
+    "impactStats": [
+      { "value": "1", "label": "Puskesmas" },
+      { "value": "100%", "label": "Paperless" }
+    ],
+    "impacts": [
+      "Mengurangi waktu pemrosesan pengajuan SPPD dari manual menjadi digital",
+      "Mempermudah pelacakan status dan riwayat perjalanan dinas pegawai",
+      "Menyediakan dokumentasi digital yang terpusat dan mudah diaudit"
+    ],
+    "highlights": [
+      "Form pengajuan SPPD digital dengan validasi otomatis",
+      "Dashboard status dan riwayat perjalanan dinas",
+      "Sistem approval bertingkat",
+      "Deployment production-ready dengan Nginx reverse proxy"
+    ],
+    "techStack": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Nginx",
+      "Gunicorn",
+      "VPS Deployment"
+    ],
+    "images": [
+      {
+        "src": "/projects/sppd-puskesmas/dashboard.png",
+        "alt": "SPPD dashboard overview",
+        "label": "Dashboard Overview",
+        "description": "Ringkasan pengajuan, status persetujuan, dan riwayat perjalanan dinas."
+      },
+      {
+        "src": "/projects/sppd-puskesmas/form-pengajuan.png",
+        "alt": "SPPD submission form",
+        "label": "Form Pengajuan",
+        "description": "Form digital untuk pengajuan Surat Perintah Perjalanan Dinas."
+      },
+      {
+        "src": "/projects/sppd-puskesmas/detail-riwayat.png",
+        "alt": "SPPD history and detail view",
+        "label": "Riwayat & Detail",
+        "description": "Halaman detail dan pelacakan status setiap pengajuan SPPD."
+      }
+    ],
+    "link": null
+  }
+]
