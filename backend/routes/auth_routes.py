@@ -1,3 +1,5 @@
+import os
+
 from flask import Blueprint, request, jsonify, make_response
 
 import db
@@ -5,10 +7,12 @@ import auth
 
 auth_bp = Blueprint("auth_bp", __name__, url_prefix="/api/auth")
 
+# Set env var COOKIE_SECURE=true di production (Railway/HTTPS).
+# Default false supaya tetap jalan di http://localhost saat development.
 COOKIE_KWARGS = dict(
     httponly=True,
     samesite="Lax",
-    secure=False,  # set True kalau sudah pakai HTTPS di production
+    secure=os.environ.get("COOKIE_SECURE", "false").lower() == "true",
     path="/",
 )
 
